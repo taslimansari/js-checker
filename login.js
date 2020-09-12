@@ -40,8 +40,9 @@ function isUserValid(username, password){
 function logIn(username, password){
     if(isUserValid(username, password)){
         console.log(newsfeed);
+        alert("Success! Newsfeed has been added to console.")
     }else{
-        alert("Uhh oh! Wrong Username and Password. Try again!");
+        alert("Uhh oh! Check out the \"Show\" button and try again!");
     }
 }
 
